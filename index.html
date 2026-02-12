@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SKY UP LAB</title>
+  <meta charset="UTF-8">
+  <title>Sky Up Lab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sky Up Lab - Contacto e información">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="hero">
-    <img src="logo.jpg" alt="Sky Up Lab" class="logo">
+    <img src="logo.png" alt="Sky Up Lab" class="logo">
     <h1>Sky Up Lab</h1>
-    <p>Tu laboratorio de inglés 🚀</p>
+    <p>Aprender inglés puede ser divertido 🚀</p>
 
-    <a class="btn-wsp" href="https://wa.me/549XXXXXXXXXX" target="_blank">
-      💬 Contactar por WhatsApp
+    <a class="btn-wsp" href="https://wa.me/5492920507196" target="_blank">
+      💬 Contactanos por WhatsApp
     </a>
   </header>
 
-  <section class="contacto">
-    <h2>Contacto por Mail</h2>
+  <section class="info">
+    <h2>Información básica</h2>
+    <p>📲 WhatsApp: 2920 507196</p>
+    <p>📧 Email: (a definir)</p>
+  </section>
 
-    <form action="https://formsubmit.co/TUEMAIL@gmail.com" method="POST">
-      <input type="text" name="nombre" placeholder="Tu nombre" required>
-      <input type="email" name="email" placeholder="Tu email" required>
-      <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+  <section class="formulario">
+    <h2>Dejanos tu consulta</h2>
 
-      <!-- Opcionales -->
-      <input type="hidden" name="_subject" value="Nuevo mensaje desde Sky Up Lab">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://tupagina.github.io/gracias.html">
-
-      <button type="submit">Enviar mensaje</button>
+    <form>
+      <input type="text" placeholder="Nombre y Apellido" required>
+      <input type="tel" placeholder="Teléfono" required>
+      <textarea placeholder="Tu consulta..." required></textarea>
+      <button type="submit" disabled>Formulario (se activa cuando definamos el mail)</button>
     </form>
+
+    <p class="nota">⚠️ El envío por mail se habilita cuando definas el correo de contacto.</p>
   </section>
 
   <footer>
@@ -41,3 +44,4 @@
 
 </body>
 </html>
+
